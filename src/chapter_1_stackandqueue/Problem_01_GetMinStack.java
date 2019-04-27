@@ -7,6 +7,7 @@ public class Problem_01_GetMinStack {
 		private Stack<Integer> stackData;
 		private Stack<Integer> stackMin;
 
+		//省空间费时间
 		public MyStack1() {
 			this.stackData = new Stack<Integer>();
 			this.stackMin = new Stack<Integer>();
@@ -39,7 +40,7 @@ public class Problem_01_GetMinStack {
 			return this.stackMin.peek();
 		}
 	}
-
+//省时间费空间
 	public static class MyStack2 {
 		private Stack<Integer> stackData;
 		private Stack<Integer> stackMin;
