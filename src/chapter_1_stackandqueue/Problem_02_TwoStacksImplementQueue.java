@@ -1,9 +1,20 @@
 package chapter_1_stackandqueue;
 
+
+
 import java.util.Stack;
 
 public class Problem_02_TwoStacksImplementQueue {
 
+	/**
+	 * wsc
+	 * 2019/04/27 18:56:27
+	 * description: 由两个栈组成的队列
+	 * 注意：
+	 * 1 如果stackPush要往stackPop中压入数据，那么一次性把stackPush中的数据全部压入
+	 * 2 如果stackPop不为空，stackPush绝不能往stackPop中压入数据
+	 *
+	 */
 	public static class TwoStacksQueue {
 		public Stack<Integer> stackPush;
 		public Stack<Integer> stackPop;
