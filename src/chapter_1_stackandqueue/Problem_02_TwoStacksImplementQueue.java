@@ -13,7 +13,7 @@ public class Problem_02_TwoStacksImplementQueue {
 	 * 注意：
 	 * 1 如果stackPush要往stackPop中压入数据，那么一次性把stackPush中的数据全部压入
 	 * 2 如果stackPop不为空，stackPush绝不能往stackPop中压入数据
-	 *
+	 *ok
 	 */
 	public static class TwoStacksQueue {
 		public Stack<Integer> stackPush;
